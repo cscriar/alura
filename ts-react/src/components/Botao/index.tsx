@@ -7,6 +7,7 @@ class Botao extends React.Component {
       <button className={style.botao}>
         <span>{this.props.children}</span>
       </button>
+      //teste
     );
   }
 }
