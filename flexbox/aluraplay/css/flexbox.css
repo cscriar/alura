@@ -1,0 +1,42 @@
+.cabecalho__container {
+  display: flex;
+  background-color: chartreuse;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.logo__item {
+background-color: cadetblue;
+}
+
+.cabecalho__pesquisar__item {
+  display: none;
+}
+
+@media (min-width: 830px) {
+  .cabecalho__pesquisar__item {
+    display: block;
+  }
+
+  .rodape__container {
+    justify-content: space-between;    
+  }
+}
+
+.rodape__container {
+  display: flex;
+  align-items: center;  
+  flex-flow: column, wrap;
+}
+
+.superior__secao__container {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: scroll;
+  gap: 15px;
+} 
+
+
